@@ -8,3 +8,7 @@ Please check the reference if your are interrested about the subject.
 
 This project will be also available on codepen.io
 
+## Tool
+
+To do this page, I will use HTML, CSS and BootStrap
+
