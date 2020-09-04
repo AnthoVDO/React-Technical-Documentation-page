@@ -1,5 +1,14 @@
 /*color code*/
 
+:root {
+    --mainBackGround: #212227;
+    --mainTxtColor: #FFFFFF;
+    --menuBackGround: #7a7887;
+    --menuBackGroundSection: #50B6FF;
+    --codeBackGround: #00C7FF;
+    --codeColor: #FF694B;
+}
+
 
 /* general */
 
