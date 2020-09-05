@@ -13,6 +13,43 @@
     <div id="container">
 
         <!--*****Nav/Menu*****-->
+        <nav>
+            <header>
+                <h1>React.js</h1>
+            </header>
+            <ul>
+                <li><a class="" href="">Introduction</a>
+                    <ul>
+                        <li>
+                            <a href=""></a>Declarative</li>
+                        <li>
+                            <a href=""></a>Component-Based</li>
+                    </ul>
+                </li>
+                <li><a class="" href="">Difference between React.js and React Native</a>
+                    <ul>
+                        <li><a href="">React.js</a></li>
+                        <li><a href="">React Native</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="" href=""></a>Prerequisites</li>
+                <li>
+                    <a class="" href=""></a>Way of working
+                    <ul>
+                        <li><a href="">Creat a React App</a></li>
+                        <li><a href="">React Developer Tools</a></li>
+                        <li><a href="">JSX: Javascript + XML</a></li>
+                        <li><a href="">Component</a></li>
+                        <li><a href="">Props</a></li>
+                        <li><a href="">State</a></li>
+                    </ul>
+                </li>
+                <li><a class="" href="">Go Further</a></li>
+                <li><a class="" href="">Reference</a></li>
+
+            </ul>
+        </nav>
 
         <!--Main-->
 
@@ -20,7 +57,7 @@
             <!--*****Introduction*****-->
             <section>
                 <header>
-                    <h1>Introduction<sup><a href="#note1">[1]</a></sup></h1>
+                    <h2>Introduction<sup><a href="#note1">[1]</a></sup></h2>
                 </header>
                 <article>
                     <p>React.js was developed by Facebook to address its need for a dynamic and high performing User Interface(UI). In 2011, Jordan Walke and his team from Facebook released the React JS library, a JavaScript library which brought together
@@ -30,7 +67,7 @@
 
                 <!--*****Introduction*****-->
                 <!--Declarative-->
-                <h2>Declarative<sup><a href="#note2">[2]</a></sup></h2>
+                <h3>Declarative<sup><a href="#note2">[2]</a></sup></h3>
                 <article>
                     <p>React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes. Declarative views make your code
                         more predictable and easier to debug.</p>
@@ -40,7 +77,7 @@
 
                 <!--*****Introduction*****-->
                 <!--Component based-->
-                <h2>Component-Based<sup><a href="#note2">[2]</a></sup></h2>
+                <h3>Component-Based<sup><a href="#note2">[2]</a></sup></h3>
                 <article>
                     <p>Build encapsulated components that manage their own state, then compose them to make complex UIs. Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out
                         of the DOM.</p>
@@ -50,11 +87,11 @@
             <!--*****Difference between react.js and React Native*****-->
             <section>
                 <header>
-                    <h1>Difference between React.js and react native<sup><a href="#note1">[1]</a></sup></h1>
+                    <h2>Difference between React.js and react native<sup><a href="#note1">[1]</a></sup></h2>
                 </header>
                 <!--*****Difference between react.js and React Native*****-->
                 <!--React js-->
-                <h2>React.js</h2>
+                <h3>React.js</h3>
                 <article>
                     <p>React.js often referred to as React or ReactJS is a JavaScript library responsible for building a hierarchy of UI components or in other words, responsible for the rendering of UI components. It provides support for both frontend and
                         server-side.
@@ -65,7 +102,7 @@
 
                 <!--*****Difference between react.js and React Native*****-->
                 <!--React native-->
-                <h2>React Native</h2>
+                <h3>React Native</h3>
                 <article>
                     <p>React Native is a framework for building native applications using JavaScript. React Native compiles to native app components, which makes it possible for you to build native mobile applications. In React JS, React is the base abstraction
                         of React DOM for the web platform, while with React Native, React is still the base abstraction but of React Native. So the syntax and workflow remain similar, but the components are different.
@@ -75,7 +112,7 @@
             </section>
             <!--*****Prerequisites*****-->
             <header>
-                <h1>Prerequisites<sup><a href="#note1">[1]</a></sup></h1>
+                <h2>Prerequisites<sup><a href="#note1">[1]</a></sup></h2>
             </header>
             <section>
                 <article>
@@ -87,11 +124,11 @@
             <!--*****Way of working*****-->
             <section>
                 <header>
-                    <h1>Way of working<sup><a href="#note3">[3]</a></sup></h1>
+                    <h2>Way of working<sup><a href="#note3">[3]</a></sup></h2>
                 </header>
                 <!--*****Way of working*****-->
                 <!--Creat a react app-->
-                <h2>Creat React App</h2>
+                <h3>Creat React App</h3>
                 <article>
                     <p>Facebook has created Create <b>React App</b>, an environment that comes pre-configured with everything you need to build a <b>React app</b>. It will create a live development server, use Webpack to automatically compile
                         <b>React</b>,
@@ -135,7 +172,7 @@
                       render() {
                         return (
                           <div className="App">
-                            <h1>Hello, React!</h1>
+                            <h3>Hello, React!</h2>
                           </div>
                         )
                       }
@@ -154,7 +191,7 @@
                       render() {
                         return (
                           <div className="App">
-                            <h1>Hello, React!</h1>
+                            <h3>Hello, React!</h2>
                           </div>
                         )
                       }
@@ -168,26 +205,27 @@
 
                 <!--*****Way of working*****-->
                 <!--React developer tool-->
-                <h2>React Developer Tools</h2>
+                <h3>React Developer Tools</h3>
 
                 <article>
                     <p>There is an extension called <b>React Developer Tools</b> that will make your life much easier when working with <b>React</b>. Download <b>React DevTools for Chrome</b>, or whatever browser you prefer to work on.
                     </p>
-                    <p>After you install it, when you open <b>DevTools</b>, you'll see a tab for <b>React</b>. Click on it, and you'll be able to inspect components as they're written. You can still go to the <b>Elements tab</b> to see the actual <b>DOM</b>                        output. It may not seem like that much of a deal now, but as the app gets more complicated, it will become increasingly necessary to use.</p>
+                    <p>After you install it, when you open <b>DevTools</b>, you'll see a tab for <b>React</b>. Click on it, and you'll be able to inspect components as they're written. You can still go to the <b>Elements tab</b> to see the actual
+                        <b>DOM</b> output. It may not seem like that much of a deal now, but as the app gets more complicated, it will become increasingly necessary to use.</p>
                     <img src="">
                     <p>Now we have all the tools and setup we need to actually begin working with <b>React</b>.</p>
 
                 </article>
                 <!--*****Way of working*****-->
                 <!--JSX javascript + XML-->
-                <h2>JSX: JavaScript + XML</h2>
+                <h3>JSX: JavaScript + XML</h3>
                 <article>
                     <p>As you've seen, we've been using what looks like <b>HTML</b> in our <b>React</b> code, but it's not quite <b>HTML</b>. This is <b>JSX</b>, which stands for <b>JavaScript XML</b>.
                     </p>
                     <p>With <b>JSX</b>, we can write what looks like <b>HTML</b>, and also we can create and use our own XML-like <b>tags</b>. Here's what <b>JSX</b> looks like assigned to a variable.
                     </p>
                     <p><code>JSX
-                    const heading = <h1 className="site-heading">Hello, React</h1>
+                    const heading = <h1 className="site-heading">Hello, React</h2>
                     </code></p>
                     <p>Using <b>JSX </b>is not mandatory for writing React. Under the hood, it's running <code>createElement</code>, which takes the tag, object containing the properties, and children of the component and renders the same information. The
                         below code will have the same output as the <b>JSX</b> above.
@@ -204,7 +242,7 @@
                     <p><b>JavaScript</b> expressions can also be embedded inside <b>JSX</b> using <em>curly braces</em>, including <b>variables</b>, <b>functions</b>, and <b>properties</b>.
                     </p>
                     <p><code>const name = 'Tania'
-                    const heading = <h1>Hello, {name}</h1>
+                    const heading = <h3>Hello, {name}</h2>
                     </code></p>
                     <p><b>JSX</b> is easier to write and understand than creating and appending many elements in <b>vanilla JavaScript</b>, and is one of the reasons people love <b>React</b> so much.</p>
 
@@ -212,7 +250,7 @@
 
                 <!--*****Way of working*****-->
                 <!--Component-->
-                <h2>Components</h2>
+                <h3>Components</h3>
 
                 <article>
                     <p>Almost everything in <b>React</b> consists of components, which can be <b>class</b> components or <b>simple</b> components.
@@ -227,7 +265,7 @@
                 </article>
                 <!--*****Way of working*****-->
                 <!--Props-->
-                <h2>Props</h2>
+                <h3>Props</h3>
                 <article>
                     <p>One of the big deals about <b>React</b> is how it handles <b>data</b>, and it does so with <b>properties</b>, referred to as <b>props</b>, and with <b>state</b>.
                     </p>
@@ -236,7 +274,7 @@
 
                 <!--*****Way of working*****-->
                 <!--State-->
-                <h2>State</h2>
+                <h3>State</h3>
                 <article>
                     <p>If we want to be able to <em>delete</em> an <b>item</b> from the <b>array</b>. With <b>props</b>, we have a one way data flow, but with <b>state</b> we can update <b>private</b> data from a <b>component</b>.
                     </p>
@@ -251,7 +289,7 @@
             <!--*****Go further*****-->
             <section>
                 <header>
-                    <h1>Go further</h1>
+                    <h2>Go further</h2>
                 </header>
                 <article>
                     <p>If you want to go further with React, I recommand to follow this 2 links </p>
@@ -266,7 +304,7 @@
             <!--*****Reference*****-->
             <section>
                 <header>
-                    <h1>Reference</h1>
+                    <h2>Reference</h2>
                 </header>
                 <article>
                     <ol>
