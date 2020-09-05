@@ -10,34 +10,43 @@
 }
 
 
-/* general */
+/* Container */
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 
-/* container */
+/* NavBar */
+
+#navbar {
+    width: 500px;
+}
 
 
-/*header*/
+/* Main */
+
+#main-doc {}
 
 
-/*nav menu*/
+/* Introduction */
 
 
-/* introduction */
-
-
-/* difference between react js and react native */
+/* Difference between react js and react native */
 
 
 /* Prerequisities */
 
 
-/* way of working */
+/* Way of working */
 
 
-/* go further */
+/* Go further */
 
 
-/* reference */
+/* Reference */
 
 
-/* footer */
+/* Footer */
