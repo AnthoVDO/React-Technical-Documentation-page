@@ -1,20 +1,78 @@
 /*color code*/
 
 :root {
+    --bodyBackGround: #3e4049;
     --mainBackGround: #212227;
     --mainTxtColor: #FFFFFF;
     --menuBackGround: #7a7887;
     --menuBackGroundSection: #50B6FF;
-    --codeBackGround: #00C7FF;
-    --codeColor: #FF694B;
+    --codeBackGround: #0b253C;
+    --codeColor: #009CA6;
+    --headerCodeBackGround: #041a2c;
+}
+
+
+/*.active {
+    background-color: var(--menuBackGroundSection);
+}*/
+
+
+/* General*/
+
+body {
+    box-sizing: border-box;
+    color: var(--mainTxtColor);
+    background-color: var(--bodyBackGround);
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 21px;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p {
+    text-align: justify;
+    font-size: 16px;
+}
+
+code {
+    background-color: var(--codeBackGround);
+    color: var(--codeColor);
+}
+
+pre code {
+    display: block;
+}
+
+.headerCode {
+    text-align: center;
+    background-color: var(--headerCodeBackGround);
+    display: block;
+}
+
+a {
+    color: inherit;
 }
 
 
 /* Container */
 
 #container {
+    max-width: 1200px;
+    background-color: var(--mainBackGround);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -22,13 +80,48 @@
 /* NavBar */
 
 #navbar {
-    width: 500px;
+    position: -webkit-sticky;
+    position: sticky;
+    width: 300px;
+    flex: none;
+    background-color: var(--menuBackGround);
+    padding: 10px 10px 10px 0;
+    height: 650px;
+    margin-top: -670px;
+    top: 17px;
+    left: 20px;
+    margin-left: 10px;
+}
+
+nav header h1 {
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    line-height: 2em;
+}
+
+.nav-section {
+    border-bottom: solid 1px rgba(255, 255, 255, 0.76);
+    text-decoration: none;
 }
 
 
 /* Main */
 
-#main-doc {}
+#main-doc {
+    float: left;
+    padding: 10px;
+    margin-left: 320px;
+}
+
+
+/* Section */
+
+section {
+    border-bottom: solid 1px var(--mainTxtColor);
+}
 
 
 /* Introduction */
