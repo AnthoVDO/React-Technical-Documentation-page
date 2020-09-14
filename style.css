@@ -3,19 +3,15 @@
 :root {
     --bodyBackGround: #3e4049;
     --mainBackGround: #212227;
-    --mainTxtColor: #FFFFFF;
+    --mainTxtColor: #FFFFFf;
     --menuBackGround: #7a7887;
-    --menuBackGroundSection: #50B6FF;
+    --menuBackGroundHover: #0379d3;
+    /*--menuBackGroundSection: #61829c;*/
     --codeBackGround: #0b253C;
     --codeColor: #009CA6;
     --headerCodeBackGround: #041a2c;
     --menuBackGroundMain: #656472;
 }
-
-
-/*.active {
-    background-color: var(--menuBackGroundSection);
-}*/
 
 
 /* General*/
@@ -35,11 +31,13 @@ h1 {
 
 h2 {
     font-size: 21px;
-    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-style: double;
 }
 
 h3 {
     font-size: 18px;
+    text-decoration-line: underline;
 }
 
 p {
@@ -129,7 +127,12 @@ nav ul {
 }
 
 .nav-section:hover {
-    background-color: lightcoral;
+    /*background-color: lightcoral;*/
+    background-color: var(--menuBackGroundHover);
+}
+
+.nav.scrolling {
+    background-color: var(--menuBackGroundSection) !important;
 }
 
 .nav-main {
@@ -155,23 +158,123 @@ section {
     margin-bottom: 35px;
 }
 
+@media (max-width:1158px) {
+    #navbar {
+        width: 250px;
+    }
+    #main-doc {
+        margin-left: 280px;
+    }
+}
 
-/* Introduction */
+@media (max-width:1100px) {
+    #navbar {
+        width: 200px;
+    }
+    #main-doc {
+        margin-left: 230px;
+    }
+}
 
+@media (max-width:1050px) {
+    #navbar {
+        width: 150px;
+    }
+    #main-doc {
+        margin-left: 180px;
+    }
+}
 
-/* Difference between react js and react native */
+@media (max-width:1000px) {
+    #main-doc {
+        margin-left: 200px;
+    }
+}
 
+@media (max-width:970px) {
+    #main-doc {
+        margin-left: 230px;
+    }
+}
 
-/* Prerequisities */
+@media (max-width:940px) {
+    #main-doc {
+        margin-left: 260px;
+    }
+}
 
+@media (max-width:910px) {
+    #main-doc {
+        margin-left: 290px;
+    }
+}
 
-/* Way of working */
+@media (max-width:880px) {
+    #main-doc {
+        margin-left: 320px;
+    }
+}
 
+@media (max-width:850px) {
+    #main-doc {
+        margin-left: 350px;
+    }
+}
 
-/* Go further */
+@media (max-width:820px) {
+    #main-doc {
+        margin-left: 380px;
+    }
+}
 
+@media (max-width:800px) {
+    #main-doc {
+        margin-left: 400px;
+    }
+}
 
-/* Reference */
-
-
-/* Footer */
+@media (max-width:780px) {
+    body {
+        display: block;
+    }
+    #main-doc {
+        margin-left: 0px;
+    }
+    #navbar {
+        position: static;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 95%;
+    }
+    nav header {
+        width: 25%;
+    }
+    nav ul {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    #nav-main {
+        width: 100%;
+    }
+    #nav-sub {
+        width: 33%;
+    }
+    /*nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 75%;
+    }*/
+    /*nav ul li {
+        width: 25%;
+    }*/
+    #container {
+        display: block;
+    }
+}
