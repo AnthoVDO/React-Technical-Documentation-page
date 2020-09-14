@@ -20,19 +20,19 @@
             </header>
             <ul>
                 <li class="nav-section nav-main"><a class="nav-link" href="#Introduction">Introduction</a></li>
-                <li class="nav-section nav-sub"><a href="#Declarative">Declarative</a></li>
-                <li class="nav-section nav-sub"><a href="#Component-based">Component-Based</a></li>
+                <li class="nav-section nav-sub-2"><a href="#Declarative">Declarative</a></li>
+                <li class="nav-section nav-sub-2"><a href="#Component-based">Component-Based</a></li>
                 <li class="nav-section nav-main"><a class="nav-link" href="#Difference_between_react.js_and_react_native">Difference between React.js and React Native</a></li>
-                <li class="nav-section nav-sub"><a href="#React.js">React.js</a></li>
-                <li class="nav-section nav-sub"><a href="#React-Native">React Native</a></li>
+                <li class="nav-section nav-sub-2"><a href="#React.js">React.js</a></li>
+                <li class="nav-section nav-sub-2"><a href="#React-Native">React Native</a></li>
                 <li class="nav-section nav-main"><a class="nav-link" href="#Prerequisites">Prerequisites</a></li>
                 <li class="nav-section nav-main"><a class="nav-link" href="#Way_of_working">Way of working</a></li>
-                <li class="nav-section nav-sub"><a href="#Creat-React-App">Creat a React App</a></li>
-                <li class="nav-section nav-sub"><a href="#React-Developer-Tools">React Developer Tools</a></li>
-                <li class="nav-section nav-sub"><a href="#JSX-Javascript-XML">JSX: Javascript + XML</a></li>
-                <li class="nav-section nav-sub"><a href="#Compenents">Component</a></li>
-                <li class="nav-section nav-sub"><a href="#Props">Props</a></li>
-                <li class="nav-section nav-sub"><a href="#State">State</a></li>
+                <li class="nav-section nav-sub-3"><a href="#Creat-React-App">Creat a React App</a></li>
+                <li class="nav-section nav-sub-3"><a href="#React-Developer-Tools">React Developer Tools</a></li>
+                <li class="nav-section nav-sub-3"><a href="#JSX-Javascript-XML">JSX: Javascript + XML</a></li>
+                <li class="nav-section nav-sub-3"><a href="#Compenents">Component</a></li>
+                <li class="nav-section nav-sub-3"><a href="#Props">Props</a></li>
+                <li class="nav-section nav-sub-3"><a href="#State">State</a></li>
                 <li class="nav-section nav-main"><a class="nav-link" href="#Go_further">Go Further</a></li>
                 <li class="nav-section nav-main"><a class="nav-link" href="#Reference">Reference</a></li>
             </ul>
@@ -130,7 +130,7 @@
                     <p><code>$ cd react-tutorial && npm start</code></p>
                     <p>Once you run this command, a new window will popup at <code>localhost:3000</code> with your new <b>React app</b>.
                     </p>
-                    <img src="">
+                    <span><img src="https://www.taniarascia.com/static/1c5a36e06f57edfc718276e9ddf9a9c1/a6d36/Screen-Shot-2018-08-18-at-11.37.59-AM.png" alt="screeshot with Welcome to React page"></span>
                     <p>If you look into the project structure, you'll see a <code>/public</code> and <code>/src directory</code>, along with the regular <code>node_modules</code>, <code>.gitignore</code>, <code>README.md</code>, and <code>package.json</code>.
                     </p>
                     <p>In <code>/public</code>, our important file is <code>index.html</code>, which is very similar to the static <code>index.html</code> file we made earlier - just a <code>root div</code>. This time, no libraries or scripts are being loaded
@@ -147,11 +147,9 @@
                     </p>
                     <p>Now in <code>index.js</code>, we're importing <b>React</b>, <b>ReactDOM</b>, and the <b>CSS</b> file.
                     </p>
-                    <pre><code><span class="headerCode">src/index.js</span>
-                    import React from 'react'
-                    import ReactDOM from 'react-dom'
-                    import './index.css'
-                    </code></pre>
+                    <pre><code><span class="headerCode">src/index.js</span> import React from 'react' import ReactDOM from 'react-dom' import './index.css'
+                    </code>
+                    </pre>
                     <p>Lets creat an <b>App component</b>.
                     </p>
                     <p>Let's add a <code>div</code> element with a <code>class.</code> We will use <code>className</code> instead of <code>class</code>.
@@ -203,7 +201,7 @@
                     </p>
                     <p>After you install it, when you open <b>DevTools</b>, you'll see a tab for <b>React</b>. Click on it, and you'll be able to inspect components as they're written. You can still go to the <b>Elements tab</b> to see the actual
                         <b>DOM</b> output. It may not seem like that much of a deal now, but as the app gets more complicated, it will become increasingly necessary to use.</p>
-                    <img src="">
+                    <span><img src="https://www.taniarascia.com/static/888c5b815dcc80ec278cc2c46b563afc/a6d36/Screen-Shot-2018-08-18-at-3.45.11-PM.png" alt="screenshot with Hello react"></span>
                     <p>Now we have all the tools and setup we need to actually begin working with <b>React</b>.<sup><a href="#note3">[3]</a></sup></p>
 
                 </article>
@@ -215,9 +213,9 @@
                     </p>
                     <p>With <b>JSX</b>, we can write what looks like <b>HTML</b>, and also we can create and use our own XML-like <b>tags</b>. Here's what <b>JSX</b> looks like assigned to a variable.
                     </p>
-                    <pre><code><span class="headerCode">JSX</span>
-                    const heading = &lt;h1 className="site-heading">Hello, React&lt;/h1>
-                    </code></pre>
+                    <pre><code><span class="headerCode">JSX</span> const heading = &lt;h1 className="site-heading">Hello, React&lt;/h1>
+                    </code>
+                    </pre>
                     <p>Using <b>JSX </b>is not mandatory for writing React. Under the hood, it's running <code>createElement</code>, which takes the tag, object containing the properties, and children of the component and renders the same information. The
                         below code will have the same output as the <b>JSX</b> above.
                     </p>
