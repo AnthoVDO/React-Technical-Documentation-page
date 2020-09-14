@@ -10,16 +10,19 @@ This project will be also available on codepen.io
 
 ## Tool
 
-To do this page, I will use HTML, CSS and BootStrap
+To do this page, I will use HTML, CSS.
 
 ## Color Code
 
-Background: #212227;
-Color: FFFFFF;
-Menu background: #7a7887;
-Menu background on section : #50B6FF;
-Background Code: 00C7FF;
-Color code: FF694B;
+    --bodyBackGround: #3e4049;
+    --mainBackGround: #212227;
+    --mainTxtColor: #FFFFFf;
+    --menuBackGround: #7a7887;
+    --menuBackGroundSection: #50B6FF;
+    --codeBackGround: #0b253C;
+    --codeColor: #009CA6;
+    --headerCodeBackGround: #041a2c;
+    --menuBackGroundMain: #656472;
 
 
 ## Text bruto
