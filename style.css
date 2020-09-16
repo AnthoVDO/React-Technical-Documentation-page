@@ -302,7 +302,7 @@
        }
    }
    
-   @media (max-height:870px) {
+   @media (max-height:870px) and (min-width:550px) {
        #navbar {
            height: 95vh;
            overflow-y: auto;
@@ -310,67 +310,67 @@
        }
    }
    
-   @media (max-height:850px) {
+   @media (max-height:850px) and (min-width:550px) {
        #navbar {
            margin-top: -780px;
        }
    }
    
-   @media (max-height:800px) {
+   @media (max-height:800px) and (min-width:550px) {
        #navbar {
            margin-top: -730px;
        }
    }
    
-   @media (max-height:750px) {
+   @media (max-height:750px) and (min-width:550px) {
        #navbar {
            margin-top: -680px;
        }
    }
    
-   @media (max-height:700px) {
+   @media (max-height:700px) and (min-width:550px) {
        #navbar {
            margin-top: -630px;
        }
    }
    
-   @media (max-height:650px) {
+   @media (max-height:650px) and (min-width:550px) {
        #navbar {
            margin-top: -580px;
        }
    }
    
-   @media (max-height:600px) {
+   @media (max-height:600px) and (min-width:550px) {
        #navbar {
            margin-top: -530px;
        }
    }
    
-   @media (max-height:550px) {
+   @media (max-height:550px) and (min-width:550px) {
        #navbar {
            margin-top: -480px;
        }
    }
    
-   @media (max-height:500px) {
+   @media (max-height:500px) and (min-width:550px) {
        #navbar {
            margin-top: -430px;
        }
    }
    
-   @media (max-height:450px) {
+   @media (max-height:450px) and (min-width:550px) {
        #navbar {
            margin-top: -380px;
        }
    }
    
-   @media (max-height:400px) {
+   @media (max-height:400px) and (min-width:550px) {
        #navbar {
            margin-top: -330px;
        }
    }
    
-   @media (max-height:350px) {
+   @media (max-height:350px) and (min-width:550px) {
        #navbar {
            margin-top: -280px;
        }
